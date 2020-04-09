@@ -33,7 +33,7 @@ function solve() {
                     row = row.concat(col, ar);
                     // get the complement set
                     let free = [1,2,3,4,5,6,7,8,9].filter(n => row.indexOf(n) === -1)
-                    // insert number if there is a unique solution 
+                    // insert number if there is an unique solution 
                     grid[i][j] = (free.length == 1 ? free[0] : 0);
                 }
             }
