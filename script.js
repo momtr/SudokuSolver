@@ -3,7 +3,7 @@
 //  2020
 // =============================================
 
-// define our sudoku to solve
+// define the sudoku to be solved
 // 0 ... field not occupied
 let grid = [
     [5,3,0,0,7,0,0,0,0],
