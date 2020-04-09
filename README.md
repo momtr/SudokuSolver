@@ -6,12 +6,13 @@ Start a server and run `index.html`.
 
 ## Algorithm
 
-*define* sudoku<br>
-*while* sudoku not solved:<br>
-  > *for* element of sudoku:<br>
-  > > *if* element == 0:<br>
-  > > > *for* i in (1,10):<br>
-  > > > > *if* i fits:<br>
-  > > > > > sudoku at element = that number<br>
-*end while*
-  
+```
+define sudoku
+while sudoku not solved:
+  for element of sudoku:
+     if element == 0:
+        for i in (1,10):
+          if i fits:
+            sudoku at element = that number
+end while
+```
