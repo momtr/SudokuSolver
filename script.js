@@ -54,7 +54,7 @@ function area(i, j) {
     return res;
 }
 
-// columns returns an array of all numbers on the given column j
+// columns returns an array of all numbers in the given column j
 function column(j) {
     let res = [];
     for(let i = 0; i < 9; i++) {
