@@ -39,7 +39,7 @@ function solve() {
             }
         }
     }
-    // if the problem is solved, print the grid
+    // if the problem is solved, return the grid
     return grid;
 }
 
